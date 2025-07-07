@@ -4,10 +4,10 @@ const cron = require('node-cron');
 const express = require('express');
 
 // === Конфиг ===
-const BOT_TOKEN = '7907396982:AAF-JjqwFBgtcQRiMKvo5RYWxHKkMPEGmNU';
-const ADMIN_IDS = [954901711, 410835476];
+const BOT_TOKEN = '--';
+const ADMIN_IDS = [];
 const PORT = process.env.PORT || 8080;
-const WEBHOOK_URL = 'https://telegram-bot-433966661449.us-central1.run.app';
+const WEBHOOK_URL = '---';
 
 // === Firebase Init ===
 const serviceAccount = require('./service_account.json');
